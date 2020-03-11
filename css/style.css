@@ -1,6 +1,6 @@
    /* HEADER*/
 .cabecalho {
-    background: #6c118e;
+    background: #680b8b;
 }
 
 .titulo-principal {
@@ -24,7 +24,9 @@
     width: 100%;
     height: 50px;
     background-color: #222;
+    border: 4px outset #222;
     font-family: 'Arial';
+    
 }
 
 .menu ul {
@@ -43,6 +45,7 @@
     text-decoration: none;
     text-align: center;
     background-color: #222;
+    border: 4px outset #222;
     color: #FFF;
 }  
 
@@ -66,9 +69,12 @@
 }
 
 .menu ul ul li a {
-    background-color: #069;
+    background-color: #372e45;
 }
 
+.linkedin::before{
+    background-image: url(/img/linkedin.png);
+}
 
 /* BOTÃO MENU */
 
@@ -105,7 +111,7 @@ label[for="bt-menu"]{
 
     .menu{
         margin-top: 5px;
-        margin-left: -100%;
+        margin-left: -110%;
         transition: all .4s;
     }
 
@@ -155,17 +161,20 @@ body {
 .principal p {
     font-size: 20px;
     padding: 20px 30px 0 20px;
-    line-height: 1.4;        
+    line-height: 1.4;
+    box-sizing: border-box;
 }
 
           /*FOOTER*/
 
 .rodape {
     background: #000000;
-    padding: 20px 0 20px 0;  
+    padding: 20px 0 20px 0;
+    width: 100%;
 }
 
 .copyright{
     font-size: 12px;
     color: #FFFFFF;
 }
+
