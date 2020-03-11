@@ -1,3 +1,4 @@
+   /* HEADER*/
 .cabecalho {
     background: #6c118e;
 }
@@ -101,4 +102,33 @@ label[for="bt-menu"]{
         transition: all .4s;
     }
 
-}  
+}
+       /*MAIN*/
+
+.foto-eric {
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+}
+
+.principal {
+    width: 940px;
+    margin: 80px auto 0 auto;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Mukta Mahee', sans-serif;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+.principal p {
+    font-size: 20px;
+    padding: 20px 30px 0 20px;
+    line-height: 1.4;
+        
+}
