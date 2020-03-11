@@ -104,6 +104,10 @@ label[for="bt-menu"]{
 
 }
        /*MAIN*/
+main {
+    background: linear-gradient(#FEFEFE, #d7bfdb);
+}
+
 
 .foto-eric {
     border-radius: 50%;
@@ -114,6 +118,7 @@ label[for="bt-menu"]{
 .principal {
     width: 940px;
     margin: 80px auto 0 auto;
+    
 }
 
 .titulo {
