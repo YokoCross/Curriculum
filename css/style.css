@@ -11,8 +11,10 @@
     font-family: 'Mukta Mahee', sans-serif;
     padding: 40px 0;
     color: #FFFFFF;
+    margin: auto auto;
 }
 
+     /*NAVEGADOR*/
 *{
     margin: 0;
     padding: 0;
@@ -58,6 +60,15 @@
     color: #555;
 }
 
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #CCC;
+}
+
+.menu ul ul li a {
+    background-color: #069;
+}
+
 
 /* BOTÃO MENU */
 
@@ -83,13 +94,9 @@ label[for="bt-menu"]{
 }
 
 @media(max-width: 800px) {
-    .titulo-principal{
-        padding: 10px 0;
-        display: inline;
-    }
-    
+
     label[for="bt-menu"]{
-    display: inline-block;
+    display: block;
     }
 
     #bt-menu:checked ~ .menu{
@@ -100,6 +107,22 @@ label[for="bt-menu"]{
         margin-top: 5px;
         margin-left: -100%;
         transition: all .4s;
+    }
+
+    .menu ul li {
+        width: 100%;
+        float: none;
+    }
+    .menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+  
+    .menu ul li:hover ul{
+        height: auto;
+        max-height: 200px;
     }
 
 }
@@ -134,6 +157,8 @@ body {
     padding: 20px 30px 0 20px;
     line-height: 1.4;        
 }
+
+          /*FOOTER*/
 
 .rodape {
     background: #000000;
