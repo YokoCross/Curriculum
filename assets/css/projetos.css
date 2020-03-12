@@ -1,0 +1,34 @@
+.projetos-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.projetos-conteudo h2, .projetos-conteudo p {
+    text-align: center;
+    
+}
+
+.projetos-conteudo h2 {
+    font-size: 50px;    
+}
+
+.projetos-conteudo p {
+    font-size: 30px;
+    
+}
+
+.foto {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:480px) {
+    
+    .projetos-conteudo {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+}

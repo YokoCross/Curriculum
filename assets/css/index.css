@@ -1,0 +1,25 @@
+.foto-eric {
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+/*IMPLEMENTAÇÃO MOBILE*/
+
+@media screen and (max-width:480px){
+    
+    .foto{
+        width: auto;
+        padding: 30px;
+    }
+    
+    .foto-eric {
+    border-radius: 50%;
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    }
+    
+   
+}
